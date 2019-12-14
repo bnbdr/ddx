@@ -1,0 +1,6 @@
+LIBRARY
+EXPORTS  
+   ddx_init					@1  
+   ddx_record				@2  
+   ddx_cleanup				@3  
+   ddx_context_size			@4
