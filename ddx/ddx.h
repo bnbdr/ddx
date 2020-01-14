@@ -11,6 +11,7 @@ typedef struct FRAME_DATA {
 } FRAME_DATA, *PFRAME_DATA;
 
 #define DDX_CONTINUE_RECORDING		0
+#define DDX_STOP_RECORDING			1
 
 typedef int(__stdcall *FrameCallbackType)(PFRAME_DATA frame, void* opq);
 
